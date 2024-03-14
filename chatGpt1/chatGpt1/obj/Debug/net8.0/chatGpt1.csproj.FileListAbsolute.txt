@@ -1,0 +1,15 @@
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/bin/Debug/net8.0/chatGpt1
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/bin/Debug/net8.0/chatGpt1.deps.json
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/bin/Debug/net8.0/chatGpt1.runtimeconfig.json
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/bin/Debug/net8.0/chatGpt1.dll
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/bin/Debug/net8.0/chatGpt1.pdb
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/obj/Debug/net8.0/chatGpt1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/obj/Debug/net8.0/chatGpt1.AssemblyInfoInputs.cache
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/obj/Debug/net8.0/chatGpt1.AssemblyInfo.cs
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/obj/Debug/net8.0/chatGpt1.csproj.CoreCompileInputs.cache
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/obj/Debug/net8.0/chatGpt1.sourcelink.json
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/obj/Debug/net8.0/chatGpt1.dll
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/obj/Debug/net8.0/refint/chatGpt1.dll
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/obj/Debug/net8.0/chatGpt1.pdb
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/obj/Debug/net8.0/chatGpt1.genruntimeconfig.cache
+/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/obj/Debug/net8.0/ref/chatGpt1.dll
