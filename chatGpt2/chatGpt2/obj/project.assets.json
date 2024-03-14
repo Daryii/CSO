@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/chatGpt1.csproj",
-      "projectName": "chatGpt1",
-      "projectPath": "/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/chatGpt1.csproj",
+      "projectUniqueName": "/Users/cjfly/Documents/CSO/chatGpt2/chatGpt2/chatGpt2.csproj",
+      "projectName": "chatGpt2",
+      "projectPath": "/Users/cjfly/Documents/CSO/chatGpt2/chatGpt2/chatGpt2.csproj",
       "packagesPath": "/Users/cjfly/.nuget/packages/",
-      "outputPath": "/Users/cjfly/Documents/CSO/chatGpt1/chatGpt1/obj/",
+      "outputPath": "/Users/cjfly/Documents/CSO/chatGpt2/chatGpt2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/cjfly/.nuget/NuGet/NuGet.Config"
