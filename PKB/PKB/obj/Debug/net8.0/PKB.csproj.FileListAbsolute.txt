@@ -1,0 +1,15 @@
+/Users/cjfly/Documents/CSO/PKB/PKB/bin/Debug/net8.0/PKB
+/Users/cjfly/Documents/CSO/PKB/PKB/bin/Debug/net8.0/PKB.deps.json
+/Users/cjfly/Documents/CSO/PKB/PKB/bin/Debug/net8.0/PKB.runtimeconfig.json
+/Users/cjfly/Documents/CSO/PKB/PKB/bin/Debug/net8.0/PKB.dll
+/Users/cjfly/Documents/CSO/PKB/PKB/bin/Debug/net8.0/PKB.pdb
+/Users/cjfly/Documents/CSO/PKB/PKB/obj/Debug/net8.0/PKB.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cjfly/Documents/CSO/PKB/PKB/obj/Debug/net8.0/PKB.AssemblyInfoInputs.cache
+/Users/cjfly/Documents/CSO/PKB/PKB/obj/Debug/net8.0/PKB.AssemblyInfo.cs
+/Users/cjfly/Documents/CSO/PKB/PKB/obj/Debug/net8.0/PKB.csproj.CoreCompileInputs.cache
+/Users/cjfly/Documents/CSO/PKB/PKB/obj/Debug/net8.0/PKB.sourcelink.json
+/Users/cjfly/Documents/CSO/PKB/PKB/obj/Debug/net8.0/PKB.dll
+/Users/cjfly/Documents/CSO/PKB/PKB/obj/Debug/net8.0/refint/PKB.dll
+/Users/cjfly/Documents/CSO/PKB/PKB/obj/Debug/net8.0/PKB.pdb
+/Users/cjfly/Documents/CSO/PKB/PKB/obj/Debug/net8.0/PKB.genruntimeconfig.cache
+/Users/cjfly/Documents/CSO/PKB/PKB/obj/Debug/net8.0/ref/PKB.dll
