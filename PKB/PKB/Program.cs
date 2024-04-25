@@ -1,4 +1,4 @@
- namespace PKB
+﻿namespace PKB
 {
     class Program
     {
@@ -43,7 +43,7 @@
         //  Methoud
         public void battleCry()
         {
-             Console.WriteLine($"{nickname} {nickname}");
+            Console.WriteLine($"{nickname} {nickname}");
         }
     }
 }
