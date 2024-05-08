@@ -1,26 +1,40 @@
-namespace PKB;
+using System;
 
-public class Pokeball
+namespace PKB
 {
-    public Charmander Daryi = new Charmander("Daryi", "Losing", "success");
-
-    public void thrown()
+    public class Pokeball
     {
-        Console.WriteLine($"{Daryi.nickname} Throwed!!!");
-    }
+        private bool isEmpty;
+        private Charmander charmander;
 
-    public void opensItUp()
-    {
-        Console.WriteLine($"{Daryi.nickname} opens It Up!!!");
-    }
+        public Pokeball()
+        {
+            isEmpty = true;
+        }
 
-    public void releases()
-    {
-        Console.WriteLine($"Relesases {Daryi.nickname}");
-    }
+        public Pokeball(Charmander charmander)
+        {
+            this.charmander = charmander;
+            isEmpty = false;
+        }
 
-    public void returnn()
-    {
-    }
+        public Charmander GetCharmander()
+        {
+            return charmander;
+        }
+        public void Open()
+        {
+            Console.WriteLine($"The Pokeball opens up!");
+        }
 
+        public void Close()
+        {
+            Console.WriteLine("The Pokeball closed up!");
+        }
+
+        public void Release()
+        {
+            Console.WriteLine($"{charmander.nickname} is released from the Pokeball!");
+        }
+    }
 }

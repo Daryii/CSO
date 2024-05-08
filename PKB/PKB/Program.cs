@@ -2,26 +2,34 @@
 {
     class Program
     {
-        public static String userInput;
-        public static bool compare = true ;
-
         static void Main(string[] args)
         {
-            while (compare) {
-                
-                Console.WriteLine("Welcome to Pokemon Battle Simulator"); 
-                Console.WriteLine("Enter name: (enter q to quit)");
-                userInput =  Console.ReadLine();
-                Charmander Nadir = new Charmander(userInput, "fire", "water");
+            Console.WriteLine("Welcome to Pokemon Battle Simulator");
 
-                if (userInput.ToLower() != "q") {
-                    for (int i = 0; i < 10; i++) {
-                        Nadir.battleCry();
-                    } 
-                } else {
-                    compare = false;
-                }
-            }
+            Console.WriteLine("Enter name of the first trainer: ");
+            string Trainer1 = Console.ReadLine();
+            Charmander pikachu = new Charmander("pikachu", "water", "fire");
+            Pokeball pokeball = new Pokeball(pikachu);
+            Trainer first = new Trainer(Trainer1);
+            
+            first.Throw();
+            
+            
+            // Console.WriteLine("Enter name of the second trainer: ");
+            // string Trainer2 = Console.ReadLine();
+            // Trainer second = new Trainer(Trainer2);
+            //
+            
+            // ash.Belt.Add(pokeball);   
+            //
+            // ash.Throw();
+            //
+            // ash.Return(pokeball);
+            
+            
+            
+           
         }
+        
     }
 }
