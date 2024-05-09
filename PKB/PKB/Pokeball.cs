@@ -22,6 +22,8 @@ namespace PKB
         {
             return charmander;
         }
+        
+         
         public void Open()
         {
             Console.WriteLine($"The Pokeball opens up!");

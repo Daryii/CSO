@@ -8,10 +8,10 @@ namespace PKB
         public string TrainerName;
         public List<Pokeball> Belt;
 
-        public Trainer(string trainerName)
+        public Trainer(string trainerName, List<Pokeball> belt)
         { 
             this.TrainerName = trainerName;
-            this.Belt = new List<Pokeball>();
+            this.Belt = belt;
         }
 
         public void Throw()

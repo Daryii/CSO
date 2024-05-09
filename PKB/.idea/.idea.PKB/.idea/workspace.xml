@@ -8,15 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5122648e-dcab-40d2-897f-71803d530e3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PKB/Trainer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PKB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PKB/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PKB/Pokeball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PKB/Pokeball.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PKB/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PKB/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PKB/Trainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PKB/Trainer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PKB/bin/Debug/net8.0/PKB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PKB/bin/Debug/net8.0/PKB.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PKB/bin/Debug/net8.0/PKB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PKB/bin/Debug/net8.0/PKB.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PKB/obj/Debug/net8.0/PKB.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PKB/obj/Debug/net8.0/PKB.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PKB/obj/Debug/net8.0/PKB.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PKB/obj/Debug/net8.0/PKB.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PKB/obj/Debug/net8.0/PKB.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PKB/obj/Debug/net8.0/PKB.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PKB/obj/Debug/net8.0/PKB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PKB/obj/Debug/net8.0/PKB.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PKB/obj/Debug/net8.0/PKB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PKB/obj/Debug/net8.0/PKB.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PKB/obj/Debug/net8.0/PKB.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/PKB/obj/Debug/net8.0/PKB.sourcelink.json" afterDir="false" />
@@ -103,7 +102,8 @@
       <workItem from="1714115057238" duration="317000" />
       <workItem from="1714115419543" duration="5931000" />
       <workItem from="1715157573558" duration="4430000" />
-      <workItem from="1715162025446" duration="4763000" />
+      <workItem from="1715162025446" duration="4792000" />
+      <workItem from="1715251668394" duration="6286000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
