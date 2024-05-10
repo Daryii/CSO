@@ -5,22 +5,22 @@ namespace PKB
     public class Pokeball
     {
         private bool isEmpty;
-        private Charmander charmander;
+        private Pokemon pokemon;
 
         public Pokeball()
         {
             isEmpty = true;
         }
 
-        public Pokeball(Charmander charmander)
+        public Pokeball(Pokemon pokemon)
         {
-            this.charmander = charmander;
+            this.pokemon = pokemon;
             isEmpty = false;
         }
 
-        public Charmander GetCharmander()
+        public Pokemon GetCharmander()
         {
-            return charmander;
+            return pokemon;
         }
         
          
@@ -36,7 +36,7 @@ namespace PKB
 
         public void Release()
         {
-            Console.WriteLine($"{charmander.nickname} is released from the Pokeball!");
+            Console.WriteLine($"{pokemon.nickname} is released from the Pokeball!");
         }
     }
 }

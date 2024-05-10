@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PKB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+657b9728b30ccb8b79350f02e1ed2abf8eb63fd8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae09965942ded3477cbefd4a55cc7b8811039234")]
 [assembly: System.Reflection.AssemblyProductAttribute("PKB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PKB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

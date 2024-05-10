@@ -29,8 +29,8 @@ namespace PKB
         }
         public void Return(Pokeball pokeball)
         {
-            Charmander charmander = pokeball.GetCharmander();
-            Console.WriteLine($"{charmander.nickname} returns to its Pokeball.");
+            Pokemon pokemon = pokeball.GetCharmander();
+            Console.WriteLine($"{pokemon.nickname} returns to its Pokeball.");
             Belt.Add(pokeball);
         }
             
