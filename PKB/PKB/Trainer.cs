@@ -29,21 +29,11 @@ namespace PKB
         }
         public void Return(Pokeball pokeball)
         {
-            try
-            {
-                if (Belt.Count >= 6)
-                {
-                    throw new InvalidOperationException("The trainer's belt is full. Cannot add more Pokeballs.");
-                }
-
-                Charmander charmander = pokeball.GetCharmander();
-                Console.WriteLine($"{charmander.nickname} returns to its Pokeball.");
-                Belt.Add(pokeball); // Add the Pokeball back to the belt
-            }
-            catch (InvalidOperationException ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
+            Charmander charmander = pokeball.GetCharmander();
+            Console.WriteLine($"{charmander.nickname} returns to its Pokeball.");
+            Belt.Add(pokeball);
         }
+            
     }
+    
 }

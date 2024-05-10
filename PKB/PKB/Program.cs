@@ -13,7 +13,7 @@
             string TrainerName2 = Console.ReadLine();
             
             List<Pokeball> Trainer1belt = new List<Pokeball>();
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 6; i++)
             {
                 Charmander pikachu = new Charmander("pikachu", "water", "fire");
                 Pokeball pokeball = new Pokeball(pikachu);
@@ -21,7 +21,7 @@
             }
             
             List<Pokeball> Trainer2belt = new List<Pokeball>();
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 6; i++)
             {
                 Charmander charmander = new Charmander("charmander", "calm", "speed");
                 Pokeball pokeball2 = new Pokeball(charmander);
@@ -36,7 +36,7 @@
             while (true)
             {
                 int counter = 1;
-                for (int i = 0; i < 5; i++)
+                for (int i = 0; i < 6; i++)
                 {
                     Console.WriteLine($"Round {i + 1}");
                     firstTrainer.Throw();
