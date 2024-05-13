@@ -7,6 +7,7 @@ namespace PKB
     {
         public string TrainerName;
         public List<Pokeball> Belt;
+        public int indexx;
 
         public Trainer(string trainerName, List<Pokeball> belt)
         { 
@@ -14,24 +15,27 @@ namespace PKB
             this.Belt = belt;
         }
 
-        public void Throw()
-        {
-            if (Belt.Count == 0)
-            {
-                Console.WriteLine("The trainer has no Pokeballs on the belt to throw.");
-                return;
-            }
 
-            Pokeball pokeball = Belt[0];
+        public Pokeball Throw()
+        {
+            if (indexx >= Belt.Count)
+            {
+                indexx = 0;
+            }
+            
+            Pokeball pokeball = Belt[indexx];
             Console.WriteLine($"{TrainerName} throws a Pokeball");
             pokeball.Open();
             pokeball.Release();
+            indexx++;
+            return pokeball;
+
         }
-        public void Return(Pokeball pokeball)
+        public void ReturnPo(Pokeball pokeball)
         {
             Pokemon pokemon = pokeball.GetCharmander();
             Console.WriteLine($"{pokemon.nickname} returns to its Pokeball.");
-            Belt.Add(pokeball);
+            pokeball.Close();
         }
             
     }
