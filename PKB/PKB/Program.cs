@@ -18,15 +18,15 @@ namespace PKB
             List<Pokeball> Trainer1belt = new List<Pokeball>();
             for (int i = 0; i < 2; i++)
             {
-                Bulbasaur bulbasaur = new Bulbasaur("Bulbasaur", "Grass", "Ice");
+                Bulbasaur bulbasaur = new Bulbasaur("Bulbasaur", Energytypes.Grass, Energytypes.Fire);
                 Pokeball pokeballB = new Pokeball(bulbasaur);
                 Trainer1belt.Add(pokeballB);
 
-                Charmander charmander = new Charmander("Charmander", "Fire", "Water");
+                Charmander charmander = new Charmander("Charmander", Energytypes.Fire, Energytypes.Water);
                 Pokeball pokeballC = new Pokeball(charmander);
                 Trainer1belt.Add(pokeballC);
 
-                Squirtle squirtle = new Squirtle("Squirtle", "Water", "Electric");
+                Squirtle squirtle = new Squirtle("Squirtle", Energytypes.Water, Energytypes.Leaf);
                 Pokeball pokeballS = new Pokeball(squirtle);
                 Trainer1belt.Add(pokeballS);
             }
@@ -34,15 +34,15 @@ namespace PKB
             List<Pokeball> Trainer2belt = new List<Pokeball>();
             for (int i = 0; i < 2; i++)
             {
-                Squirtle squirtle = new Squirtle("Squirtle", "Water", "Electric");
+                Squirtle squirtle = new Squirtle("Squirtle", Energytypes.Water,Energytypes.Leaf);
                 Pokeball pokeballS = new Pokeball(squirtle);
                 Trainer2belt.Add(pokeballS);
 
-                Charmander charmander = new Charmander("Charmander", "Fire", "Water");
+                Charmander charmander = new Charmander("Charmander", Energytypes.Fire,Energytypes.Water);
                 Pokeball pokeballC = new Pokeball(charmander);
                 Trainer2belt.Add(pokeballC);
 
-                Bulbasaur bulbasaur = new Bulbasaur("Bulbasaur", "Grass", "Ice");
+                Bulbasaur bulbasaur = new Bulbasaur("Bulbasaur", Energytypes.Grass, Energytypes.Water);
                 Pokeball pokeballB = new Pokeball(bulbasaur);
                 Trainer2belt.Add(pokeballB);
             }

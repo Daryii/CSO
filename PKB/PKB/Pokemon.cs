@@ -3,20 +3,20 @@ namespace PKB;
 public abstract class Pokemon
 
 {
-        // Fields
-        public String nickname { get; set; }
-        public String strength { get; set; }
-        public String weakness { get; set; }
+    // Fields
+    public String Nickname { get; set; }
+    public Energytypes Strength { get;}
+    public Energytypes Weakness { get;}
         
-        // Constructor
-        public Pokemon(String nickname, String strength, String weakness)
-        {
-            this.nickname = nickname;
-            this.strength = strength;
-            this.weakness = weakness;
-        }
+    // Constructor
+    public Pokemon(String nickname, Energytypes strength, Energytypes weakness)
+    {
+        Nickname = nickname;
+        Strength = strength;
+        Weakness = weakness;
+    }
         
-        //  Methoud
-        public abstract void battleCry();
+    //  Methoud
+    public abstract void battleCry();
 
 }

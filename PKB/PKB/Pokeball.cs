@@ -36,7 +36,7 @@ namespace PKB
 
         public void Release()
         {
-            Console.WriteLine($"{pokemon.nickname} is released from the Pokeball!");
+            Console.WriteLine($"{pokemon.Nickname} is released from the Pokeball!");
         }
     }
 }

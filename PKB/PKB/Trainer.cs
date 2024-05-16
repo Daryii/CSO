@@ -34,7 +34,7 @@ namespace PKB
         public void ReturnPo(Pokeball pokeball)
         {
             Pokemon pokemon = pokeball.GetCharmander();
-            Console.WriteLine($"{pokemon.nickname} returns to its Pokeball.");
+            Console.WriteLine($"{pokemon.Nickname} returns to its Pokeball.");
             pokeball.Close();
         }
             

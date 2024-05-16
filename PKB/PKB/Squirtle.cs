@@ -2,12 +2,12 @@ namespace PKB;
 
 public class Squirtle : Pokemon
 {
-    public Squirtle(String nickname, String strength, String weakness) : base(nickname,strength,weakness)
+    public Squirtle(String nickname, Energytypes strength, Energytypes weakness) : base(nickname,strength,weakness)
     {
     }
 
     public override void battleCry()
     {
-       Console.WriteLine($"{nickname} Bulba!");
+        Console.WriteLine($"{Nickname} Bulba!");
     }
 }
